@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
+  <title>Galerija</title>
+<style> 
+  body {background-color:#ff99cc;border-style: solid;border-color:#ffe6f2;border-radius: 5px;}
+  h1 {text-align:center; color:white; padding:0; font-size:400%;font-family:Amarante;text-shadow: 2px 2px 4px #4682B4;border-style: solid;border-color:#ffe6f2;}
+  ul {list-style-type: none;margin:0;padding:0;text-align:center;background-color:#ffb3d9}
+  li {display:inline-block}
+  li a {display:block;text-align: center;color:white;padding: 14px 16px;text-decoration: none;font-size:140%; font-family:Amarante}
+  a {text-align: center;display:inline;text-decoration: none;font-family:Amarante;padding: 14px 10px;margin:auto;color:white; font-size:150%;}
+  h2 {color:white; font-size:190%;font-family:Amarante;text-shadow: 2px 2px 4px #4682B4;padding: 4px}
+  h3 {color:white; font-size:190%;font-family:Amarante;text-shadow: 2px 2px 4px #4682B4;padding: 4px}
+  p {font-family: Montserrat; font-size:110%; padding: 4px; color:#cc0066}
+  img {display:inline-block, repeat: no repeat;width: 70%;height: auto;size: cover;attachment: fixed;object-fit: cover; border-radius: 8px}
+  table, tr, td {border:none;font-family: Montserrat;text-align: center;font-size:104%}
+  th {color:white;font-family: Montserrat;text-decoration: underline;}
+  video {display:inline-block, repeat: no repeat;width: 28%;height: auto;size: cover;attachment: fixed;object-fit: cover; border-radius: 8px}
+  iframe{display:inline-block;size: cover;attachment: fixed;object-fit: cover; border-radius: 8px}
+  audio {margin: 0 auto}
+  .container {position: relative;width: 50%;}
+  .image {display: block;width: 100%;height: auto; float:left}
+  .overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 100%;width: 100%;opacity: 0;transition: .5s ease;background-color: none;}
+  .container:hover .overlay {opacity: 1;}
+  * {box-sizing: border-box;}
+  .box {float: left;width: 50%;padding: 50px;}
+  .clearfix::after {content: "";clear: both;display: table;}
+</style> 
+</head>
+
+<body>
+<ul>
+  <li><a href="index.html">Početna</a></li>
+  <li><a href="O_meni.html">O meni</a></li>
+  <li><a href="Galerija.html">Galerija</a></li>
+</ul>
+<h1>Zabava i samo zabava</h1>
+<div align="center" style="font-size: 172%">
+  <a href="#s">Slike</a>
+  <a href="#v">Videi</a>
+</div>
+<p style="color:#ff99cc">čćžđš</p>
+<p style="text-align:center">Za malo zabave kliknite na<a href="Coloring-Sheet-Of-Royal-Hello-Kitty-With-Crown-And-Sash.pdf" style="font-size:110%">ovu poveznicu.</a></p>
+<p></p>
+<div align="center">
+	<audio controls>
+		<source src="Ev'rybody Wants to Be a Cat.ogg" type="audio/ogg">
+		<source src="Ev'rybody Wants to Be a Cat.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+</div>
+<div style="background-color:#ffb3d9; font-size:140%">
+  <h2 id="s">Slike</h2>
+  <table>
+  <tr>
+    <td><img src="20250321_203255.jpg" alt="slika"></td>
+    <td><img src="20250304_111928.jpg" alt="slika">
+	<td><img src="20250323_142520.jpg" alt="slika">
+  </tr>
+</table>
+</div>
+<div>
+  <h3 id="v">Videi</h3>
+  <table>
+  <tr>
+    <td>
+		<video controls>
+			<source src="20241214_133354.mp4" type="video/mp4">
+			<source src="20241214_133354.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video>
+	</td>
+	<td>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/IxX_QHay02M?si=b2PBaluTigP0nxyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</td>
+  </tr>
+  </table>
+</div>
+</body>
+</html>
